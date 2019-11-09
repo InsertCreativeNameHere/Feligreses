@@ -6,6 +6,6 @@ Consiste en una base de datos hecha con archivos y estructuras de datos para alm
 ### Hecho por
 |Código|Estudiante|
 |------|----------|
-|Daniel Alejandro Rodriguez|20172020009|
+|Daniel Alejandro Rodriguez el nacaca|20172020009|
 |Javier Aponte| 2017 ?|
-|Sundar pichari ramanujan|2017 ?| 
+|Sundar pichari ramanujan|20172020016| 
