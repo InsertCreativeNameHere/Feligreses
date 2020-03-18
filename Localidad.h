@@ -1,7 +1,11 @@
+#include<iostream>
+#include<string>
+typedef std::string String; // para no escribir todo el tiempo std::string
+
 class Localidad{
 	private:
 		int ID;
-		char *Nom_loc;
+		String Nom_loc;
 		// barrios lista
 	public:
 		//  Constructor
@@ -9,10 +13,10 @@ class Localidad{
 		
 		// Setters
 		void setID(int id){ID = id;}
-		void setNom_loc(char nom [10]){Nom_loc = nom;}
+		void setNom_loc(String nom){Nom_loc = nom;}
 		// void set barios
 		// Getters
 		int getID(){return ID;}
-		char *getNom_loc(){return Nom_loc;}
+		String getNom_loc(){return Nom_loc;}
 		// lista getBarrios
 };
