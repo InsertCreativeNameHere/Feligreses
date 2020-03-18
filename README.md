@@ -7,5 +7,5 @@ Consiste en una base de datos hecha con archivos y estructuras de datos para alm
 |Código|Estudiante|
 |------|----------|
 |Daniel Alejandro Rodriguez el nacaca|20172020009|
-|Javier Aponte| 2017 ?|
+|Javier Aponte| 20172020036|
 |Sundar pichari ramanujan|20172020016| 
