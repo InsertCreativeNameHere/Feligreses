@@ -8,12 +8,12 @@ struct feligres{
 	
 	//Datos del feligres
 	string nombre, apellido,tipoID,eMail,ciudadN,paisN,ciudadR,direccion,barrio,iglesia;
-	char sexo,actLaboral,rangHijos;
+	string sexo,actLaboral,rangHijos;
 	bool hijos;
-	int numHijos,numID,telefonoF,telefonoC;
+	int numHijos,numID,telefonoF,telefonoC,edad;
 	//
 	
-	int sigSexo,sigLocalidad,sigActividad,sigNumHijos,sigEdad;
+	int sigSexo,sigLocalidad,sigActividad,sigNumHijos,sigEdad,sigIglesia;
         
 };
        
