@@ -1,16 +1,7 @@
 #include "Multilista.h"
 #include "feligresL.h"
-#include "lista.h"
 
 using namespace std;
-
-
-void imprimir(){
-	
-}
-
-
-
 
 main(){
 	
@@ -53,24 +44,6 @@ main(){
 	b.numID = 456;
 	b.tipoID = "CC";
 	
-	c.actLaboral = "Ingenieria";
-	c.apellido = "Lopez";
-	c.barrio = "Olarte";
-	c.ciudadN = "Bogota";
-	c.ciudadR = "Bogota";
-	c.direccion = "dir";
-	c.edad = 25;
-	c.eMail = "algo";
-	c.hijos = false;
-	c.rangHijos = "0";
-	c.sexo = "M";
-	c.iglesia = "Monse";
-	c.nombre = "Alguien";
-	c.numHijos = 0;
-	c.rangHijos = "0";
-	c.numID = 456;
-	c.tipoID = "CC";
-	
 	
 	cout<<"voy a insertar"<<endl;
 	miLista.insertar(a);
@@ -81,11 +54,50 @@ main(){
 	cout<<"Inserte"<<endl;
 	
 	cout<<"voy a insertar"<<endl;
-	miLista.insertar(c);
+	miLista.insertar(a);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(b);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(a);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(b);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(a);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(b);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(a);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(b);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(a);
+	cout<<"Inserte"<<endl;
+	
+	cout<<"voy a insertar"<<endl;
+	miLista.insertar(b);
 	cout<<"Inserte"<<endl;
 	
 	
-	feligres d = miLista.buscar(3);
-	cout<<d.nombre<<endl;
+	c = miLista.buscar(1);
+	cout<<"nom: "<<c.nombre<<endl;
+	
+	
+	
 	
 }
